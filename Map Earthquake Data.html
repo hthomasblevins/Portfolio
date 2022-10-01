@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>H. Thomas Blevins Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>H. Thomas Blevins<br /></h1>
+						<h2>Data Analytics Portfolio</h2>
+						<p>The following provides examples of my data analysis work using Power BI, SQL, SSIS, Python, etc. <br />
+							You can also find more about my background in my <b><a href="https://www.linkedin.com/in/tomblevins" target="_blank">LinkedIn Profile <img src='images/LinkedInLogoTransp.png' alt="" width="30" height="30"> </a></b></p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio Projects</a>
+					</header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li><a href="index.html">Portfolio Home</a></li>
+						<li class="active"><a href="Map Earthquake Data.html">Earthquake Data Project</a></li>				
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/tomblevins" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Post -->
+						<section class="post">
+							<header class="major">
+								<h1>Map Earthquake<br>Data</h1>
+								<p>This project sources JSON-encoded, cloud-based data, extracts and summarizes data using Power Query and Power BI methods.</p>
+							</header>
+							<h2>1. Extact JSON data from the USGS, transform and load using Power Query.</h2>
+							<div class="image main"><img src="images/Earthquake data ETL.png" alt="" /></div>
+							<p>After extracting the earthquake data, I transformed the data into columns and rows in the proper format for lattitude, longitude, dates, etc.</p>
+							<ul class="actions special">
+								<li><a href="https://github.com/hthomasblevins/CodeSamples/blob/main/Earthquake%20Data%20Project%20Power%20Query%20Code.txt" class="button" target="_blank">Link to Power Query Code</a></li>
+							</ul>
+							<p><br></p>
+							
+							<h2>2. Map earthquakes that occurred in the last 30 days.</h2>
+							<div class="image main"><img src="images/Earthquake Visualization 2.png" alt="" /></div>
+							<p>After prepping the data, I used Power BI to generate a map with bubbles representing earthquakes with the size indicating magnitude and color representing the # of people reporting that the felt the earthquake.  There are also 'slicers' or filters on the left that are limiting the display to earthquakes that were felt by at least 100 people and having a magnitude of 3.00 or higher.  I also included some summary statistics in the bottom left.</p>
+							<p>
+
+						</section>
+
+				</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:hthomasblevins@outlook.com">hthomasblevins@outlook.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/tomblevins" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
